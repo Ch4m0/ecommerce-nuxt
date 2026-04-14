@@ -16,7 +16,7 @@ async function placeOrder() {
 
   const orderPayload = {
     userId: 1,
-    date: new Date().toISOString().split('T')[0],
+    date: new Date().toISOString().split('T')[0]!,
     products: cartItems.value.map(({ productId, quantity }) => ({ productId, quantity })),
   }
 

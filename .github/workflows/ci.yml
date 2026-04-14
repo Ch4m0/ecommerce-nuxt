@@ -24,7 +24,7 @@ jobs:
         run: npm install
 
       - name: Type check
-        run: npx nuxi typecheck
+        run: ./node_modules/.bin/nuxi typecheck
 
       - name: Build
         run: npm run build
