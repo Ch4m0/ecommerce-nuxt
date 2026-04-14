@@ -1,4 +1,6 @@
 # Ecommerce Nuxt
+<img width="1456" height="838" alt="image" src="https://github.com/user-attachments/assets/be4f771a-e9c6-4877-bae4-2a819351df2f" />
+
 
 A frontend e-commerce platform built with Nuxt 4, consuming the [Fake Store API](https://fakestoreapi.com). Features product browsing with category filtering, product detail views, and order management.
 
